@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = function(d3) {
   d3.geo.tile = function() {
     var size = [960, 500],
         scale = 256,
